@@ -3,17 +3,14 @@
     padding:0px;
 }
 
-content{
-    width:100%;
-}
-
 .section{
     width:100%;
 }
 
-.section h1{
+.section h2{
     text-align:center;
-    color:red;
+    color:#df3c32;
+    font-family: 'Play', sans-serif;
 }
 #branch{
     margin-top:50px;
@@ -25,5 +22,5 @@ content{
 }
 
 #branch .section{
-    border:5px solid #2f2e2e;
+     border:5px solid #2f2e2e;
 }
