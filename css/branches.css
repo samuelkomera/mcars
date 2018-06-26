@@ -26,3 +26,14 @@ address{
     width: 90%;  /* The width is the width of the web page */
     margin:10px;
    }
+
+   #sap {
+    height: 150px;  /* The height is 400 pixels */
+    width: 90%;  /* The width is the width of the web page */
+    margin:10px;
+   }
+   #dap {
+    height: 150px;  /* The height is 400 pixels */
+    width: 90%;  /* The width is the width of the web page */
+    margin:10px;
+   }

@@ -82,7 +82,7 @@
                              </div>
                             <div class="row">
         
-                                 <div id="map"></div>
+                                 <div id="dap"></div>
                             </div>
                       </div>
                       <div class="col-md-4">
@@ -97,7 +97,7 @@
                             </div>
                             <div class="row">
         
-                                <div id="map"></div>
+                                <div id="sap"></div>
                             </div>
                       </div>
             </div>
@@ -117,6 +117,18 @@
               // The map, centered at Uluru
               var map = new google.maps.Map(
                   document.getElementById('map'), {zoom: 10, center: uluru});
+              // The marker, positioned at Uluru
+              var marker = new google.maps.Marker({position: uluru, map: map});
+
+
+              // The map, centered at Uluru
+              var map = new google.maps.Map(
+                  document.getElementById('sap'), {zoom: 10, center: uluru});
+              // The marker, positioned at Uluru
+              var marker = new google.maps.Marker({position: uluru, map: map});
+
+              var map = new google.maps.Map(
+                  document.getElementById('dap'), {zoom: 10, center: uluru});
               // The marker, positioned at Uluru
               var marker = new google.maps.Marker({position: uluru, map: map});
             }
