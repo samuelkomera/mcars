@@ -1,3 +1,8 @@
+a{
+
+    font-family: 'Archivo Black', sans-serif;
+}
+
 .col-md-4{
     margin:0px;
     padding:0px;
@@ -5,9 +10,10 @@
 .section{
     width:100%;
 }
-.section h1{
+.section h2{
     text-align:center;
-    color:red;
+    color:#df3c32;
+    font-family: 'Archivo Black', sans-serif;
 }
 #location{
     background-color:#000000;
@@ -28,7 +34,7 @@
 }
 
 #location .section:nth-child(2){
-    border-bottom:15px solid #2f2e2e;
+    border-bottom:20px solid #2f2e2e;
 }
 
 #location .section.header{
@@ -39,6 +45,7 @@ address{
     padding:20px;
     margin:0px;
     color:white;
+    font-family: 'Archivo Black', sans-serif;
 }
 #map {
     height: 150px; 
