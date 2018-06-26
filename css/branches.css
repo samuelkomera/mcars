@@ -1,39 +1,48 @@
+.col-md-4{
+    margin:0px;
+    padding:0px;
+}
 content{
-    background-color:#1f1f1f;
     width:100%;
 }
 
-content h1{
-    text-align:center;
+.section{
     width:100%;
+}
+
+.section h1{
+    text-align:center;
     color:red;
 }
-
 #location{
-    background-color:#343a40;
+    margin-top:50px;
+    background-color:#000000;
 }
 
 #location .row{
-  border:5px solid #2f2e2e;
+  border-top:10px solid #2f2e2e;
+  border-bottom:10px solid #2f2e2e;
 }
 
+#location .section{
+    border-left:10px solid #2f2e2e;
+    border-right:10px solid #2f2e2e ;
+}
 address{
     padding:20px;
+    margin:0px;
     color:white;
 }
 #map {
-    height: 150px;  /* The height is 400 pixels */
-    width: 90%;  /* The width is the width of the web page */
-    margin:10px;
+    height: 150px; 
+    width: 100%; 
    }
 
-   #sap {
-    height: 150px;  /* The height is 400 pixels */
-    width: 90%;  /* The width is the width of the web page */
-    margin:10px;
-   }
-   #dap {
-    height: 150px;  /* The height is 400 pixels */
-    width: 90%;  /* The width is the width of the web page */
-    margin:10px;
-   }
+#sap {
+height: 150px; 
+width: 100%; 
+} 
+#dap {
+height: 150px; 
+width: 100%;
+}

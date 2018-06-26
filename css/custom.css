@@ -2,6 +2,13 @@
     margin:0;
     padding:0;
 }
+html,body{
+   background-color: #1f1f1f;
+}
+navbar,header{
+    background-color:black;
+    border-bottom:2px solid #e7aaae;
+}
 
 header img{
     width:50px;
@@ -10,7 +17,7 @@ header img{
 footer{
     position:absolute;
     bottom :0;
-    background-color:#212529;
+    background-color:black;
     color:white;
     width:100%;
     text-align:center;
@@ -21,6 +28,7 @@ footer p{
 }
 content{
   position:absolute;
+  /* background:url("/images/main.jpg");  */
 
 }
 
@@ -62,6 +70,15 @@ a::before{
     color:white;
 }
 
+.welcome button{
+    background-color:#0606ee;
+    color:white;
+    width:150px;
+    height:30px;
+    border-radius:15px;
+    border:none;
+}
+
 .offer{
     width:400px;
     height:400px;
@@ -77,14 +94,7 @@ a::before{
   height:100%;
 }
 
-.welcome button{
-    background-color:#0606ee;
-    color:white;
-    width:150px;
-    height:30px;
-    border-radius:15px;
-    border:none;
-}
+
 
 @media only screen 
   and (min-device-width: 320px) 

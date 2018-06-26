@@ -1,0 +1,22 @@
+content{
+    width:100%;
+}
+
+content h1{
+    text-align:center;
+    width:100%;
+    color:red;
+}
+
+#location{
+    background-color:#000000;
+}
+
+#location .row{
+  border:5px solid #2f2e2e;
+}
+
+address{
+    padding:20px;
+    color:white;
+}
