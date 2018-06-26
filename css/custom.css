@@ -3,7 +3,10 @@
     padding:0;
 }
 
-
+header img{
+    width:50px;
+    height:50px;
+}
 footer{
     position:absolute;
     bottom :0;
@@ -74,7 +77,7 @@ a::before{
   height:100%;
 }
 
-button{
+.welcome button{
     background-color:#0606ee;
     color:white;
     width:150px;
@@ -87,6 +90,9 @@ button{
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
+    .welcome{
+        left:0px;
+    }  
     .offer{
         display:none;
     } 

@@ -1,0 +1,28 @@
+content{
+    background-color:#1f1f1f;
+    width:100%;
+}
+
+content h1{
+    text-align:center;
+    width:100%;
+    color:red;
+}
+
+#location{
+    background-color:#343a40;
+}
+
+#location .row{
+  border:5px solid #2f2e2e;
+}
+
+address{
+    padding:20px;
+    color:white;
+}
+#map {
+    height: 150px;  /* The height is 400 pixels */
+    width: 90%;  /* The width is the width of the web page */
+    margin:10px;
+   }
