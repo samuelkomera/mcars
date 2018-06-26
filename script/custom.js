@@ -3,8 +3,11 @@ $window=$(window).height();
 $footer=$('footer').height();
 $header=$('header').height();
 
-$('content').height($window-$header-$footer);
-$('content img').height($window-$header-$footer);
+$('content').css("margin-top","$header");
+
+
+$('content').height($window-$header);
+$('content img').height($window-$header);
 
 $('.carousel').carousel({
     interval: 3000

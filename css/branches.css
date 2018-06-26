@@ -2,20 +2,14 @@
     margin:0px;
     padding:0px;
 }
-content{
-    width:100%;
-}
-
 .section{
     width:100%;
 }
-
 .section h1{
     text-align:center;
     color:red;
 }
 #location{
-    margin-top:50px;
     background-color:#000000;
 }
 
@@ -24,9 +18,18 @@ content{
   border-bottom:10px solid #2f2e2e;
 }
 
+#location .row:nth-child(1){
+    border:10px solid #2f2e2e;
+  }
+
 #location .section{
     border-left:10px solid #2f2e2e;
     border-right:10px solid #2f2e2e ;
+}
+
+#location .section.header{
+    border-left:0;
+    border-right:0 ;
 }
 address{
     padding:20px;
@@ -45,4 +48,21 @@ width: 100%;
 #dap {
 height: 150px; 
 width: 100%;
+}
+
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 2000px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+    #location{
+        margin-top:50px;
+    }
+    
+    footer{
+        position:absolute;
+        bottom:0;
+    }
+
+
 }
