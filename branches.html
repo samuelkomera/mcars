@@ -51,65 +51,65 @@
         </div>
         </nav>
     </header>
-    <content>
+    <div id="content">
             <!-- <div class="overlay"></div> -->
             <!-- <img src="images/main.jpg" alt="image not found"> -->
-        <div class="container" id="location">
+        <div class="container block">
             <div class="row">
-                <div class="section header">
                         <h2>OUR BRANCHES</h2>
-                </div>
             </div>
-            <div class="row">
+            <div class="row block-content">
                     <div class="col-md-4">
-                            
                             <div class="section">
+                                 <h3>Chengicherla</h3>    
                                 <div id="map"></div>
                             </div>
                             <div class="section">
                                     <address>
-                                            3-59,Indranagar Colony,<br>
-                                            Chengicherla,<br> 
-                                            Hyderabad, <br>
-                                            TS 500092,  <br>
-                                            INDIA 
+                                            Plot no 79, Survey No 39,<br>
+                                            Behind Bmrs High School,<br>
+                                            Chengicherla Village,<br> 
+                                            Medipally Mandal,<br>
+                                            Medchal Dist,<br>
+                                            Telangana-500092.
                                     </address>
                             </div>
                       </div>
                       <div class="col-md-4">
                             <div class="section">
-        
+                                    <h3>Kukatpally</h3>  
                                     <div id="sap"></div>
                             </div>
                             <div class="section">
                                     <address>
-                                            3-59,Indranagar Colony,<br>
-                                            Chengicherla,<br> 
-                                            Hyderabad, <br>
-                                            TS 500092,  <br>
-                                            INDIA 
+                                            Flat No.181, HNo:4-35-487/2,<br>
+                                            Madavaram Nagar Colony,<br>
+                                            Beside Akshara Concept School,<br>
+                                            Kukatpally,<br>Hyderabad,<br>
+                                            Telangana-500072. 
                                     </address>
                             </div>                            
                       </div>
                        <div class="col-md-4">
 
                             <div class="section">
+                                 <h3>Warangal</h3>     
                                 <div id="dap"></div>
                              </div>
                             <div class="section">
                                     <address>
-                                            3-59,Indranagar Colony,<br>
-                                            Chengicherla,<br> 
-                                            Hyderabad, <br>
-                                            TS 500092,  <br>
-                                            INDIA 
+                                            Sy No.349,<br>Fathima Nagar,<br>
+                                            Kazipet,<br>
+                                            Warangal Urban Dist,<br>
+                                            Telangana-506004,<br>
+                                            India.<br> 
                                     </address>
                             </div>
                       </div>
             </div>
 
         </div>
-    </content>
+    </div>
     <footer>
             <p>Copyright © 2018 M CARS - All Rights Reserved.</p>
             <p>Designed by <a href="http://portfolio.samuelkomera.com">SAMUEL KOMERA</a></p>
@@ -120,24 +120,30 @@
             // Initialize and add the map
             function initMap() {
               // The location of Uluru
-              var uluru = {lat:12.971891, lng: 77.641154};
-              // The map, centered at Uluru
+              var chengi = {lat:17.4311531, lng: 78.60862610000004};
+              // The map, centered at Chengicherla
               var map = new google.maps.Map(
-                  document.getElementById('map'), {zoom: 10, center: uluru});
+                  document.getElementById('map'), {zoom: 10, center: chengi});
               // The marker, positioned at Uluru
-              var marker = new google.maps.Marker({position: uluru, map: map});
+              var marker = new google.maps.Marker({position: chengi, map: map});
 
 
-              // The map, centered at Uluru
+              // The location of Kukatpally
+              var Kukatpally = {lat:17.4991795, lng: 78.41879059999997}; 
+              // The map, centered at Kukatpally
               var map = new google.maps.Map(
-                  document.getElementById('sap'), {zoom: 10, center: uluru});
-              // The marker, positioned at Uluru
-              var marker = new google.maps.Marker({position: uluru, map: map});
+                  document.getElementById('sap'), {zoom: 10, center: Kukatpally});
+              // The marker, positioned at Kukatpally
+              var marker = new google.maps.Marker({position: Kukatpally, map: map});
+
+
+              // The location of warangal
+              var warangal = {lat:17.9849337, lng: 79.52277189999995}; 
 
               var map = new google.maps.Map(
-                  document.getElementById('dap'), {zoom: 10, center: uluru});
-              // The marker, positioned at Uluru
-              var marker = new google.maps.Marker({position: uluru, map: map});
+                  document.getElementById('dap'), {zoom: 10, center: warangal});
+              // The marker, positioned at Warangal
+              var marker = new google.maps.Marker({position: warangal, map: map});
             }
 
      </script>
