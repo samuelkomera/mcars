@@ -4,10 +4,7 @@ $windowWidth=$(window).width();
 $footer=$('footer').height();
 $header=$('header').height();
 
-$content=$('#content').height();
-
-$row1=$('.row-1').height();
 if($windowWidth > 900){
-    $('.block-content .section').height($content-$header-$header);
+$('#content').height($windowHeight-$header-$footer);    
+// $('#home-content').height($windowHeight-$header-$footer);
 }
-
