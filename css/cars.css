@@ -26,12 +26,21 @@ h3:hover{
 
 .cost-box,.info-box{
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
-span{
-  padding:5px 0 0px 1px;
+.cost-box .col-md-6,.info-box .col-md-4{
+    padding:2px;
+    border:2px solid #383838;
+    text-align:center;
+
 }
+span{
+  margin:5px 0 0px 1px;
+  border:2px solid #383838;
+}
+
+
 
 @media screen 
   and (min-device-width: 900px) 
