@@ -66,9 +66,9 @@ navbar,header{
 }
 
 .navbar .brand-text{
-    font-size:2.6em;
+    font-size:1.6em;
     font-weight:bold;
-    color:#df3c32;
+    color:#ce8a87;
 }
 .navbar .brand-text:hover{
     color:#df3c32;
@@ -136,6 +136,11 @@ footer p{
     .alert{
         font-size:1.0em;
         color:#df3c32!important;
+    }
+    .navbar .brand-text{
+        display:block;
+        color:#ce8a87;
+        font-size:2.6em;
     }
     
 }
