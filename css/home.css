@@ -9,7 +9,7 @@
     width:100%;
 }
 
-button{
+#home-content button{
     width:140px;
     height:40px;
     border-radius:20px;
@@ -19,7 +19,7 @@ button{
     color:#e7aaae;
 }
 
-button:hover{
+#home-content button:hover{
     background-color:#e7aaae;
     border:2px solid #e7aaae;;
     color:#de3c35;

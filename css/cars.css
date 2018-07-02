@@ -24,21 +24,73 @@ h3:hover{
     color:#ffffff;
 }
 
-.cost-box,.info-box{
+.mile-box,.info-box,.price-box{
     display:flex;
     justify-content: space-between;
-}
-
-.cost-box .col-md-6,.info-box .col-md-4{
-    padding:2px;
-    border:2px solid #383838;
     text-align:center;
+}
 
+.price-box{
+  padding:5px;
 }
-span{
-  margin:5px 0 0px 1px;
-  border:2px solid #383838;
+
+.mile-box .col-md-6,.info-box .col-md-6{
+    padding:2px;
+    border:2px solid #2d2b2b;
+    text-align:center;
 }
+
+.info-box span{
+    width:15px;
+    height:15px;
+    border-radius:10px; 
+    display: inline-block;
+}
+
+.info-box .img-icon{
+    max-width:50px;
+    max-height:50px;
+    background-color:red;
+    margin-left:50%;
+}
+
+
+
+
+/* colors */
+
+.bg-purple{
+    background-color:purple;
+    border:1px solid purple;
+}
+
+.bg-white{
+   background-color:#ffffff;
+   border:1px solid #ffffff;
+}
+.bg-black{
+    background-color:#000000;
+    border:1px solid #ccc;
+    
+ }
+ .bg-gray{
+    background-color:gray;
+ }
+ .bg-silver{
+    background-color:silver;
+ }
+ .bg-ash{
+    background-color:#b2beb5 ;
+ }
+ .bg-blue{
+    background-color:blue;
+ }
+ .bg-red{
+    background-color:red;
+ }
+ .bg-grade{
+     background-color:#b9aca7; 
+ }
 
 
 
